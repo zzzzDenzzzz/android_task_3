@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etBillAmountId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/order_price"
+        android:inputType="numberDecimal"
+        tools:ignore="Autofill" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tip_percentage"/>
+
+    <SeekBar
+        android:id="@+id/seekBarTipId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="15" />
+
+    <TextView
+        android:id="@+id/tvTipPercentageId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fifteen_percent"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnCalculateId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/calculate" />
+
+    <TextView
+        android:id="@+id/tvTipAmountId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tips" />
+
+    <TextView
+        android:id="@+id/tvTotalAmountId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/amount_with_tip" />
+
+</LinearLayout>

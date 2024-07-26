@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App_3</string>
+    <string name="order_price">Сумма заказа</string>
+    <string name="tip_percentage">Процент чаевых</string>
+    <string name="fifteen_percent">15%</string>
+    <string name="calculate">Рассчитать</string>
+    <string name="tips">Чаевые: </string>
+    <string name="amount_with_tip">Сумма с чаевыми: </string>
+</resources>
